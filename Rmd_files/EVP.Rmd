@@ -1,6 +1,6 @@
 ---
 title: "EVP"
-author: "Rico Kronenberg, Lisa Marie Oehlschl‰gel"
+author: "Rico Kronenberg, Lisa Marie Oehlschl√§gel"
 date: "3 Mai 2018"
 output: html_document
 ---

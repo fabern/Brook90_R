@@ -1,6 +1,6 @@
 ---
 title: "Literature"
-author: "Rico Kronenberg, Lisa Marie Oehlschlägel"
+author: "Rico Kronenberg, Lisa Marie OehlschlÃ¤gel"
 date: "19 April 2018"
 output: html_document
 ---
@@ -79,9 +79,9 @@ output: html_document
 
 * Federer, C.A., D.E. Turcotte, and C.T. Smith. 1993. The organic fraction - bulk density relationship and the expression of nutrient content in forest soils. Can J For Res 23: 1026-1032
 
-* Federer, C.A., C. Vörösmarty, and B. Fekete. 1996. Intercomparison of methods for calculating potential evaporation in regional and global water balance models. Water Resour Res 32:2315-2321.
+* Federer, C.A., C. VÃ¶rÃ¶smarty, and B. Fekete. 1996. Intercomparison of methods for calculating potential evaporation in regional and global water balance models. Water Resour Res 32:2315-2321.
 
-* Federer, C.A., C. Vörösmarty, and B. Fekete. 2003. Sensitivity of annual evaporation to soil and root properties in two models of contrasting complexity. J Hydrometeorology 4:1276-1290.
+* Federer, C.A., C. VÃ¶rÃ¶smarty, and B. Fekete. 2003. Sensitivity of annual evaporation to soil and root properties in two models of contrasting complexity. J Hydrometeorology 4:1276-1290.
 
 * Fitzpatrick, E.A. and W.R. Stern. 1966. Estimates of potential evaporation using alternative data in Penman's formula. Agric Meteorol 3:225-239.
 
@@ -107,9 +107,9 @@ output: html_document
 
 * Klute, A. ed. 1986. Methods of Soil Analysis, Part 1. Am Soc Agron, Madison. 1188 p.
 
-* Körner, Ch., J.A. Scheel, and H. Bauer. 1979. Maximum leaf diffusive conductance in vascular plants. Photosynthetica 13:45-82.
+* KÃ¶rner, Ch., J.A. Scheel, and H. Bauer. 1979. Maximum leaf diffusive conductance in vascular plants. Photosynthetica 13:45-82.
 
-* Körner, Ch. 1994. Leaf diffusive conductances in the major vegetation types of the globe. In E.-D. Schulze and M.M. Caldwell, eds. Ecophysiology of photosynthesis. Springer Verlag, Berlin. p. 463-490.
+* KÃ¶rner, Ch. 1994. Leaf diffusive conductances in the major vegetation types of the globe. In E.-D. Schulze and M.M. Caldwell, eds. Ecophysiology of photosynthesis. Springer Verlag, Berlin. p. 463-490.
 
 * Leaf, C.F., and G.E. Brink. 1973. Hydrologic simulation model of Colorado subalpine forest. USDA For Serv Res Pap RM-107, 23 p.
 
@@ -169,7 +169,7 @@ output: html_document
 
 * Shuttleworth, W.J., and J.S. Wallace. 1985. Evaporation from sparse crops - an energy combination theory. Quart J Royal Meteorol Soc 111: 839-855.
 
-* Shuttleworth, W.J. 1991 Evaporation models in hydrology. In T.J. Schmugge and J. André, eds, Land surface evaporation, Springer, New York. pp 93-120.
+* Shuttleworth, W.J. 1991 Evaporation models in hydrology. In T.J. Schmugge and J. AndrÃ©, eds, Land surface evaporation, Springer, New York. pp 93-120.
 
 * Stewart, J.B. 1988. Modelling surface conductance of pine forest. Agric For Meteorol 43: 19-35.
 
@@ -193,7 +193,7 @@ output: html_document
 
 * van Genuchten, M.Th. 1980. A closed-form equation for predicting the hydraulic conductivity of unsaturated soils. Soil Sci Soc Am J 44: 892-898.
 
-* Vörösmarty, C.J., C.A. Federer, and A.L. Schloss. 1998. Potential evaporation functions compared on US watersheds: Possible implications for global-scale water balance and terrestrial ecosystem modeling. J Hydrol 207:147-169.
+* VÃ¶rÃ¶smarty, C.J., C.A. Federer, and A.L. Schloss. 1998. Potential evaporation functions compared on US watersheds: Possible implications for global-scale water balance and terrestrial ecosystem modeling. J Hydrol 207:147-169.
 
 * Wetzel, P.J. and J.T. Chang. 1987. Concerning the relationship between evapotranspiration and soil moisture. J Climate Appl Meteorol 26:18-27
 
@@ -201,6 +201,6 @@ output: html_document
 
 * Willmott, C.J. 1982. Some comments on the evaluation of model performance. Bull Am Meteorol Soc 63:1309-1313.
 
-* Wösten, J.H.M. and M. Th. van Genuchten. 1988. Using texture and other soil properties to predict the unsaturated soil hydraulic functions. Soil Sci Soc Am J 52:1762-1770.
+* WÃ¶sten, J.H.M. and M. Th. van Genuchten. 1988. Using texture and other soil properties to predict the unsaturated soil hydraulic functions. Soil Sci Soc Am J 52:1762-1770.
 
 * Yates, S.R., M.Th. van Genuchten, A.W. Warrick, and F.J. Leij. 1992. Analysis of measured, predicted, and estimated hydraulic conductvity using the RETC computer program. Soil Sci Soc Am J 56: 347-354. 

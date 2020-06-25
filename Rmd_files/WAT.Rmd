@@ -1,6 +1,6 @@
 ---
 title: "WAT"
-author: "Rico Kronenberg, Lisa Marie Oehlschl‰gel"
+author: "Rico Kronenberg, Lisa Marie Oehlschl√§gel"
 date: "19 April 2018"
 output: html_document
 ---

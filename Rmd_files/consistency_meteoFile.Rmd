@@ -1,6 +1,6 @@
 ---
 title: "Function Datacheck"
-author: "Lisa Marie Oehlschl‰gel"
+author: "Lisa Marie Oehlschl√§gel"
 date: "12 April 2018"
 output: html_document
 ---

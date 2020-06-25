@@ -1,6 +1,6 @@
 ---
 title: "SUN"
-author: "Rico Kronenberg, Lisa Marie Oehlschlägel"
+author: "Rico Kronenberg, Lisa Marie OehlschlÃ¤gel"
 date: "17 April 2018"
 output: html_document
 ---
@@ -141,7 +141,7 @@ SUNDS requires the solar constant (SCD), which is the radiation (W/m2) on a surf
 
 where SC is the solar constant at the mean earth-sun distance ([Swift (1976)](./Literature.Rmd)). SC is set to 1367 W/m2 ([Lean (1991)](./Literature.Rmd)) and can not be changed.
 
-The declination of the sun (DEC) is the angle by which the sun is above or below the plane of the earth's equator. DEC is zero at the equinoxes and +23.5° or -23.5 at the solstices. [Swift (1976)](./Literature.Rmd) gives the solar declination (radians) as:
+The declination of the sun (DEC) is the angle by which the sun is above or below the plane of the earth's equator. DEC is zero at the equinoxes and +23.5Â° or -23.5 at the solstices. [Swift (1976)](./Literature.Rmd) gives the solar declination (radians) as:
 
 * DEC = ASIN {0.39785 x SIN [4.86961 + 0.017203 x DOY + 0.033446 x SIN (6.224111 + 0.017202 x DOY)]}
 
@@ -167,7 +167,7 @@ Name  |Description
 ------|------------------------------------------------------------
 I0SDAY|potential insolation on slope, map area basis (MJ/m2)
 SCD   |solar constant for day (W/m2)
-DEC   |declination of the sun (radians), zero at the equinoxes, +23.5° / -23.5 at the solstices
+DEC   |declination of the sun (radians), zero at the equinoxes, +23.5Â° / -23.5 at the solstices
 TWORIS|if two sunrises on slope
 Temp  |temporary variable
 T0    |hour angle of sunrise on horizontal (radians)

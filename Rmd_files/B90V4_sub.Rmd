@@ -1,6 +1,6 @@
 ---
 title: "B90V4_sub"
-author: "Rico Kronenberg, Lisa Marie Oehlschl‰gel"
+author: "Rico Kronenberg, Lisa Marie Oehlschl√§gel"
 date: "4 Mai 2018"
 output: html_document
 ---

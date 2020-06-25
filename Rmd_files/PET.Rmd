@@ -1,6 +1,6 @@
 ---
 title: "PET"
-author: "Rico Kronenberg, Lisa Marie Oehlschlägel"
+author: "Rico Kronenberg, Lisa Marie OehlschlÃ¤gel"
 date: "29 April 2018"
 output: html_document
 ---
@@ -145,7 +145,7 @@ return(c(HEIGHT, LAI, SAI, RTLEN, RPLANT))
 ```
 
 ### Function ESAT
-The subroutine ESAT calculates the saturated vapor pressure (kPa) e*, from temperature (°C) T, and calculates &Delta;. The equations of [Murray (1967)](./Literature.Rmd) are used.
+The subroutine ESAT calculates the saturated vapor pressure (kPa) e*, from temperature (Â°C) T, and calculates &Delta;. The equations of [Murray (1967)](./Literature.Rmd) are used.
 
 The input to ESAT is:
 

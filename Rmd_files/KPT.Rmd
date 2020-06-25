@@ -1,6 +1,6 @@
 ---
 title: "KPT"
-author: "Rico Kronenberg, Lisa Marie Oehlschlägel"
+author: "Rico Kronenberg, Lisa Marie OehlschlÃ¤gel"
 date: "29 April 2018"
 output: html_document
 ---
@@ -46,7 +46,7 @@ where b is a parameter and &Psi;s is the potential to which the curve extrapolat
 
 where Ks is the saturated hydraulic conductivity.
 
-With the assumption that &theta;r is usually so small it can be set to zero, these equations are usually attributed to [Campbell (1974)](./Literature.html). [Wösten and vanGenuchten (1988)](./Literature.html) state that &theta;r can be set to zero "without significantly affecting the accuracy of the results". The Campbell form (&theta;r = 0) is used in BROOK90 and by [Clapp and Hornberger (1978)](./Literature.html).
+With the assumption that &theta;r is usually so small it can be set to zero, these equations are usually attributed to [Campbell (1974)](./Literature.html). [WÃ¶sten and vanGenuchten (1988)](./Literature.html) state that &theta;r can be set to zero "without significantly affecting the accuracy of the results". The Campbell form (&theta;r = 0) is used in BROOK90 and by [Clapp and Hornberger (1978)](./Literature.html).
 
 Equation (2) fails as the soil approaches saturation, that is, as W approaches 1, because &Psi; at saturation must be 0, not &Psi;s. In this "near saturation region", [Clapp and Hornberger (1978)](./Literature.html) suggest that the parabolic expression
 
