@@ -50,26 +50,26 @@ It is important to define your "projectpath" to upload the necessary scripts inc
 Running the Rmd-files causes that html-files of the included scripts will be produced. To store them in another directory as the Rmd-files it is defined where they will be saved ("output_html"). 
 
 ```{r chunk3, message=FALSE, results='hide'}
-projectpath<-"c:\\Users\\LM\\Documents\\BROOK90\\Documentation\\"
-output_html<-file.path(projectpath,"Documentation\\HTML_Files")
+projectpath<-"../../Brook90_R"
+output_html<-file.path(projectpath,"Documentation","HTML_Files")
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'GLOBDECL.Rmd'),output_dir=output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'GLOBDECL.Rmd'),output_dir=output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'AXX.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'AXX.Rmd'),output_dir = output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'KPT.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'KPT.Rmd'),output_dir = output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'EVP.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'EVP.Rmd'),output_dir = output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'PET.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'PET.Rmd'),output_dir = output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'SUN.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'SUN.Rmd'),output_dir = output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'WAT.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'WAT.Rmd'),output_dir = output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'SNO.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'SNO.Rmd'),output_dir = output_html)
 
-rmarkdown::render(file.path(projectpath,"Rmd_files\\",'B90V4_sub.Rmd'),output_dir = output_html)
+rmarkdown::render(file.path(projectpath,"Rmd_files",'B90V4_sub.Rmd'),output_dir = output_html)
 ```
 
 The following table shows the description of the scriptnames:
@@ -107,10 +107,10 @@ If you use your own meteorological or precipitation file, make sure that your fi
 The input data (meteorological data, precipitation data, catchment parameters) are located in a different folder ("Input_data").
 
 ```{r chunk4}
-meteoFile <-read.table(file.path(projectpath,"Input_data\\","data_input_WB_1999_point.txt"))
+meteoFile <-read.table(file.path(projectpath,"Input_data","data_input_WB_1999_point.txt"))
 MData<-matrix(meteoFile)
 
-precFile <-read.table(file.path(projectpath,"Input_data\\","P_WBG_0060_Minuten_1999_point.txt"))
+precFile <-read.table(file.path(projectpath,"Input_data","P_WBG_0060_Minuten_1999_point.txt"))
 MhhData<-matrix(precFile)
 ```
 
@@ -121,7 +121,7 @@ The canopy-file includes 18 parameters and the root density (ROOTDEN), with 25 p
 If changes need to be done, change them in the textfile "canopy.txt" or use your on file with the same formatting.
 
 ```{r chunk5, warning=FALSE}
-canopy_file <- read.table(file.path(projectpath,"Input_data\\","canopy.txt"), header = FALSE, fill=TRUE , dec = "." , sep = ",", strip.white = TRUE)
+canopy_file <- read.table(file.path(projectpath,"Input_data","canopy.txt"), header = FALSE, fill=TRUE , dec = "." , sep = ",", strip.white = TRUE)
 
 #canopy parameters
 canopy_varname <- as.character(canopy_file[,1])
@@ -164,7 +164,7 @@ rm(roota,rootb,rootc,rootd,roote,rootf,rootaa,rootbb,rootcc,root_a,rootdd,rootee
 This file contains 43 parameters that can be changed in the textfile.
 
 ```{r chunk6}
-fixed_file <-read.table(file.path(projectpath,"Input_data\\","fixed.txt"), header = FALSE, fill=TRUE, sep = "," , dec = "." , row.names = 1)
+fixed_file <-read.table(file.path(projectpath,"Input_data","fixed.txt"), header = FALSE, fill=TRUE, sep = "," , dec = "." , row.names = 1)
 
 fixed_varname <- rownames(fixed_file)
 fixed_varvalue <- fixed_file [,c(1)]
@@ -185,7 +185,7 @@ rm(fixed_varname,fixed_varvalue,quant_fixed)
 Different flow parameters are included in this file. All 13 values can be changed if it is necessary.
 
 ```{r chunk7}
-flow_file <-read.table(file.path(projectpath,"Input_data\\","flow_standard.txt"), header = FALSE, fill=TRUE, sep = "," , dec = "." , row.names = 1)
+flow_file <-read.table(file.path(projectpath,"Input_data","flow_standard.txt"), header = FALSE, fill=TRUE, sep = "," , dec = "." , row.names = 1)
 
 flow_varname <- rownames(flow_file)
 flow_varvalue <- flow_file [,c(1)]
@@ -206,7 +206,7 @@ rm(flow_varname,flow_varvalue,quant_flow)
 The initial file contains 4 parameters and PSIMIN, the initial matric soil water potential for layer, with 25 layers.
 
 ```{r chunk8}
-initial_file <-read.table(file.path(projectpath,"Input_data\\","initial.txt"),header = FALSE,fill=TRUE,sep = ",",dec = ".",row.names = 1)
+initial_file <-read.table(file.path(projectpath,"Input_data","initial.txt"),header = FALSE,fill=TRUE,sep = ",",dec = ".",row.names = 1)
 
 initial_varname <- rownames(initial_file)
 initial_varvalue <- as.character(initial_file [,1])
@@ -229,7 +229,7 @@ rm(initial_varname,initial_varvalue,quant_initial)
 The location-file has a little bit more complicated structure, 5 parameters at the beginning, the average duration of daily precip by month (DURATN), ten pairs of DOY and relative canopy height (RELHT) and ten pairs of DOY and relative LAI (RELLAI). But they can be easily changed in the file.
 
 ```{r chunk9}
-location_file <-read.table(file.path(projectpath,"Input_data\\","location.txt"), header = FALSE, fill=TRUE, sep = "," , dec = ".", strip.white = TRUE)
+location_file <-read.table(file.path(projectpath,"Input_data","location.txt"), header = FALSE, fill=TRUE, sep = "," , dec = ".", strip.white = TRUE)
 
 location_varname <- as.character(location_file[,1])
 location_varvalue <- as.character(location_file [,2])
@@ -297,7 +297,7 @@ In this file the number of layers (NLAYER) can be changed and eight other soil p
 * WETINF - wetness at dry end of near-saturation range
 
 ```{r chunk10}
-soil_file <-read.table(file.path(projectpath,"Input_data\\","soil.txt"), header = FALSE, fill=TRUE , dec = "." , sep = "", strip.white = TRUE)
+soil_file <-read.table(file.path(projectpath,"Input_data","soil.txt"), header = FALSE, fill=TRUE , dec = "." , sep = "", strip.white = TRUE)
 
 soil_var1 <- as.character(soil_file[,1])
 soil_var2 <- as.character(soil_file[,2])

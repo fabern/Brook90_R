@@ -31,7 +31,8 @@ Just replace the link "c:\\Users\\LM\\Documents\\BROOK90\\Documentation\\" with 
 
 ```{r chunkpath}
 projectpath<-"c:\\Users\\LM\\Documents\\BROOK90\\Documentation\\"
-output_html<-file.path(projectpath,"Documentation\\HTML_Files")
+projectpath<-"../../Brook90_R"
+output_html<-file.path(projectpath,"Documentation","HTML_Files")
 ```
 
 Then the script of the main programm MainProg.Rmd has to be rendered to run the script of B90V4.Rmd in R-Markdown.
